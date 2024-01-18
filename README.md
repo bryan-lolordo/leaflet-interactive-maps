@@ -11,9 +11,8 @@ This will be a single base layer and one set of data being used. Gather the data
 
 ![leaflet-earthquakes](https://github.com/bryan-lolordo/leaflet-challenge/assets/134180762/96606cca-336c-4ee5-8fcc-e9276d0c45ec)
 
-Base layer: mapbox.greyscale <br>
-Data Layer Source: United States Geological Survey (USGS)<br>
-Data: All Earthquakes for the last 7 days<br>
+Layer 1: Earthquakes
+Data Source: United States Geological Survey (USGS)
 
 ## Step 2: Map to illustrate the relationship between tectonic plates and seismic activity
 An additional dataset and plot were included and they can be activated and deactivated by the user.
@@ -24,22 +23,7 @@ Legends created that will provide context for the map data.
 
 ![leaflet-earthquakes-tectonicPlates](https://github.com/bryan-lolordo/leaflet-challenge/assets/134180762/7cf5150f-961a-4ae4-86ad-a2aa6baab05e)
 
-Base layer:
-- mapbox.greyscale
-- mapbox.satellite
-- mapbox.outdoors
-
-Data: All Earthquakes - Last 7 days <br>
-Layer 2: Tectonic Plates <br>
-Source: Hugo Ahlenius, GIS-and-Cartography Consultant https://github.com/fraxen/tectonicplates
+Layer 2: Tectonic Plates
+Source: Hugo Ahlenius, GIS-and-Cartography Consultant - [techtonicplates repository](https://github.com/fraxen/tectonicplates)
 Libraries Required (already included in the index.html file)
 D3 JavaScript, Leaflet
-
-
-## Instructions Steps
-
-- Download or clone all the files contained in this repo.
-- Create a Mapbox Token
-- Include your Mapbox Token in the /Leaflet-Step-1/static/js/config.js and /Leaflet-Step-2/static/js/config.js files.
-- Run a python -m http.server or any other method for this purpose.
-- Load the Leaflet-Step-1/index.html and Leaflet-Step-2/index.html files.

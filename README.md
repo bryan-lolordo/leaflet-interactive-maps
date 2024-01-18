@@ -7,7 +7,7 @@ The Javascript-Leaflet library, HTML, CSS, Bootstrap, and Javascript were used i
 The project was divided into two steps with different levels of complexity.
 
 ## Step 1: Create the Earthquake Visualization
-This will be a single base layer and one set of data being used. Gather the dataset from USGS site to access the data and use the URL of this JSON to pull in the data for the visualization. Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude including popups and a legend. 
+This will be a single base layer and one set of data being used. Gather the dataset from [USGS Site](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) to access the data and use the URL of this JSON to pull in the data for the visualization. Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude including popups and a legend. 
 
 
 Base layer: mapbox.greyscale <br>

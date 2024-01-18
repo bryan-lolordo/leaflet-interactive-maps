@@ -9,6 +9,7 @@ The project was divided into two steps with different levels of complexity.
 ## Step 1: Create the Earthquake Visualization
 This will be a single base layer and one set of data being used. Gather the dataset from [USGS Site](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) to access the data and use the URL of this JSON to pull in the data for the visualization. Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude including popups and a legend. 
 
+![leaflet-earthquakes](https://github.com/bryan-lolordo/leaflet-challenge/assets/134180762/96606cca-336c-4ee5-8fcc-e9276d0c45ec)
 
 Base layer: mapbox.greyscale <br>
 Data Layer Source: United States Geological Survey (USGS)<br>
@@ -21,6 +22,7 @@ Earthquakes with higher magnitudes should appear larger and earthquakes with gre
 The map includes popups that provide additional information about the earthquake when a marker is clicked.
 Legends created that will provide context for the map data.
 
+![leaflet-earthquakes-tectonicPlates](https://github.com/bryan-lolordo/leaflet-challenge/assets/134180762/7cf5150f-961a-4ae4-86ad-a2aa6baab05e)
 
 Base layer:
 - mapbox.greyscale
